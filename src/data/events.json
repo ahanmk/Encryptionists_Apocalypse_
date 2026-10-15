@@ -1,0 +1,56 @@
+[
+  {
+    "id": "horde_spotted",
+    "name": "Sudden Zombie Horde",
+    "description": "A massive sudden zombie horde has swarmed into the sector. Connecting roads become severely perilous (+4 Risk).",
+    "type": "zone_risk",
+    "boost": 4,
+    "duration": 5
+  },
+  {
+    "id": "road_blocked",
+    "name": "Highway Overpass Collapse",
+    "description": "Rubble and twisted rebar block the arterial corridor. Navigating through requires slow, high-exposure climbing with intense danger.",
+    "type": "road_risk",
+    "boost": 10,
+    "duration": 8
+  },
+  {
+    "id": "ambush",
+    "name": "Roof Stalker Ambush",
+    "description": "A feral mutated stalker leaps from a fire escape directly onto the party rear guard before fleeing into the shadows.",
+    "type": "damage",
+    "boost": 0,
+    "duration": 0,
+    "damageAmount": 20
+  },
+  {
+    "id": "supply_drop",
+    "name": "Military Crate Airdrop",
+    "description": "An automated supply drone crashed near a supply outpost, deploying sealed crates with food, water, and ammunition.",
+    "type": "supply_drop",
+    "boost": 0,
+    "duration": 0,
+    "supplies": {
+      "food": 40,
+      "water": 40,
+      "ammo": 15
+    }
+  },
+  {
+    "id": "night_falls",
+    "name": "Nightfall & Thick Smog",
+    "description": "Darkness and chemical fog envelope the ruins. Reduced line of sight increases ambient threat across every road in the city.",
+    "type": "global_risk",
+    "boost": 2,
+    "duration": 4
+  },
+  {
+    "id": "radio_update",
+    "name": "Encrypted Radio Intercept",
+    "description": "Mira intercepts a garbled broadcast from Beacon Relay 3 reporting low hostile activity along the perimeter routes.",
+    "type": "intel",
+    "boost": 0,
+    "duration": 0
+  }
+]

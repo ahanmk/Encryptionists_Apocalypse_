@@ -1,0 +1,403 @@
+{
+  "name": "New Haven Quarantine District",
+  "bounds": {
+    "width": 1000,
+    "height": 1000
+  },
+  "nodes": [
+    {
+      "id": "node-1",
+      "name": "Outpost Zero (Start)",
+      "x": 80,
+      "y": 150,
+      "type": "start",
+      "description": "Makeshift evacuation bunker where Aarav and Mira held out until food ran dry."
+    },
+    {
+      "id": "node-2",
+      "name": "North Canal Bridge",
+      "x": 220,
+      "y": 120,
+      "type": "normal",
+      "description": "Quiet pedestrian footbridge with minimal walker activity."
+    },
+    {
+      "id": "node-3",
+      "name": "Redoubt Toll Booth",
+      "x": 380,
+      "y": 110,
+      "type": "normal",
+      "description": "Abandoned highway toll barrier with scattered civilian luggage."
+    },
+    {
+      "id": "node-4",
+      "name": "Overlook Warehouse",
+      "x": 540,
+      "y": 100,
+      "type": "supply",
+      "description": "Logistics hub. Canned rations and heavy battery packs intact on top racks.",
+      "supplies": {
+        "food": 60,
+        "water": 40,
+        "ammo": 15,
+        "medkit": 1,
+        "battery": 50
+      }
+    },
+    {
+      "id": "node-5",
+      "name": "Hillside Water Tower",
+      "x": 700,
+      "y": 120,
+      "type": "supply",
+      "description": "Municipal gravity-fed reservoir with clean filtered groundwater.",
+      "supplies": {
+        "food": 10,
+        "water": 90,
+        "ammo": 5,
+        "medkit": 0,
+        "battery": 25
+      }
+    },
+    {
+      "id": "node-6",
+      "name": "Pine Ridge Bunker",
+      "x": 860,
+      "y": 180,
+      "type": "safehouse",
+      "description": "Reinforced forest ranger outpost with solar panels and barred steel doors."
+    },
+    {
+      "id": "node-7",
+      "name": "Eastern Valley Road",
+      "x": 900,
+      "y": 360,
+      "type": "normal",
+      "description": "Isolated two-lane asphalt cutting through overgrown pine groves."
+    },
+    {
+      "id": "node-8",
+      "name": "Old Church Sanctuary",
+      "x": 890,
+      "y": 540,
+      "type": "safehouse",
+      "description": "Stone parish with fortified heavy oak doors and a quiet bell tower."
+    },
+    {
+      "id": "node-9",
+      "name": "Quarry Overpass",
+      "x": 880,
+      "y": 720,
+      "type": "normal",
+      "description": "Narrow concrete bridge overlooking the abandoned granite excavation site."
+    },
+    {
+      "id": "node-10",
+      "name": "West Freight Depot",
+      "x": 120,
+      "y": 320,
+      "type": "normal",
+      "description": "Rusted cargo cars providing excellent cover against open lines of sight."
+    },
+    {
+      "id": "node-11",
+      "name": "St. Jude Field Clinic",
+      "x": 140,
+      "y": 500,
+      "type": "hospital",
+      "description": "Urgent triage station overrun during the first week. Emergency medicine lockers intact.",
+      "supplies": {
+        "food": 15,
+        "water": 30,
+        "ammo": 5,
+        "medkit": 4,
+        "battery": 40
+      }
+    },
+    {
+      "id": "node-12",
+      "name": "Sawmill Storage",
+      "x": 130,
+      "y": 680,
+      "type": "supply",
+      "description": "Lumber complex with industrial generator fuel and emergency toolkits.",
+      "supplies": {
+        "food": 35,
+        "water": 25,
+        "ammo": 20,
+        "medkit": 1,
+        "battery": 45
+      }
+    },
+    {
+      "id": "node-13",
+      "name": "Southwest Relay Station",
+      "x": 160,
+      "y": 840,
+      "type": "safehouse",
+      "description": "Enclosed radio transmitter shed with heavy perimeter chain-link fence."
+    },
+    {
+      "id": "node-14",
+      "name": "Marshland Causeway",
+      "x": 340,
+      "y": 870,
+      "type": "normal",
+      "description": "Elevated boardwalk traversing stagnant murky floodplains."
+    },
+    {
+      "id": "node-15",
+      "name": "South Gate Checkpoint",
+      "x": 520,
+      "y": 890,
+      "type": "normal",
+      "description": "Military barricade with automated turret mounts long drained of power."
+    },
+    {
+      "id": "node-16",
+      "name": "Riverside Refinery",
+      "x": 700,
+      "y": 880,
+      "type": "supply",
+      "description": "Chemical plant loading docks. Still houses heavy-duty lithium power cells.",
+      "supplies": {
+        "food": 20,
+        "water": 45,
+        "ammo": 10,
+        "medkit": 1,
+        "battery": 80
+      }
+    },
+    {
+      "id": "node-17",
+      "name": "Metro Central Station",
+      "x": 280,
+      "y": 260,
+      "type": "normal",
+      "description": "Cracked subterranean plaza echoing with intermittent distant shrieks."
+    },
+    {
+      "id": "node-18",
+      "name": "Metro General Hospital",
+      "x": 400,
+      "y": 280,
+      "type": "hospital",
+      "description": "Massive multi-story medical facility. High danger, but packed with surgical trauma kits.",
+      "supplies": {
+        "food": 25,
+        "water": 50,
+        "ammo": 15,
+        "medkit": 5,
+        "battery": 60
+      }
+    },
+    {
+      "id": "node-19",
+      "name": "Deadzone Crossroads",
+      "x": 520,
+      "y": 300,
+      "type": "normal",
+      "description": "Intersection of 4th and Main. Burned out APCs line the center lanes."
+    },
+    {
+      "id": "node-20",
+      "name": "Grand Market Ruins",
+      "x": 660,
+      "y": 320,
+      "type": "supply",
+      "description": "Commercial plaza with collapsed skylights and untouched pantry containers.",
+      "supplies": {
+        "food": 75,
+        "water": 60,
+        "ammo": 25,
+        "medkit": 2,
+        "battery": 30
+      }
+    },
+    {
+      "id": "node-21",
+      "name": "Sub-Zero Cold Storage",
+      "x": 320,
+      "y": 440,
+      "type": "supply",
+      "description": "Commercial refrigeration depot with vacuum-sealed freeze-dried meat rations.",
+      "supplies": {
+        "food": 85,
+        "water": 30,
+        "ammo": 10,
+        "medkit": 1,
+        "battery": 20
+      }
+    },
+    {
+      "id": "node-22",
+      "name": "Heart of the Swarm",
+      "x": 500,
+      "y": 480,
+      "type": "normal",
+      "description": "Ground zero of the secondary outbreak. Dense horde nesting under highway bridge."
+    },
+    {
+      "id": "node-23",
+      "name": "Radio Tower 9",
+      "x": 680,
+      "y": 480,
+      "type": "safehouse",
+      "description": "Reinforced communications compound with razor wire and generator room."
+    },
+    {
+      "id": "node-24",
+      "name": "Downtown Expressway",
+      "x": 420,
+      "y": 620,
+      "type": "normal",
+      "description": "Elevated bypass choked with gridlocked, decayed vehicles."
+    },
+    {
+      "id": "node-25",
+      "name": "Burned District Avenue",
+      "x": 580,
+      "y": 640,
+      "type": "normal",
+      "description": "Ash-covered corridor through firebombed residential city blocks."
+    },
+    {
+      "id": "node-26",
+      "name": "Mercy Children's Ward",
+      "x": 740,
+      "y": 650,
+      "type": "hospital",
+      "description": "Suburban pediatric annex. Preserved sterile supplies in back pharmaceutical vaults.",
+      "supplies": {
+        "food": 30,
+        "water": 40,
+        "ammo": 8,
+        "medkit": 4,
+        "battery": 50
+      }
+    },
+    {
+      "id": "node-27",
+      "name": "Transit Hub Alpha",
+      "x": 320,
+      "y": 740,
+      "type": "normal",
+      "description": "City bus maintenance center with heavy rolling security shutters."
+    },
+    {
+      "id": "node-28",
+      "name": "Industrial Zone Gamma",
+      "x": 500,
+      "y": 750,
+      "type": "normal",
+      "description": "Smokestack factory district littered with scrap metal and fuel tanks."
+    },
+    {
+      "id": "node-29",
+      "name": "Power Substation 4",
+      "x": 680,
+      "y": 770,
+      "type": "normal",
+      "description": "Humming high-voltage transformer yard near the final river crossing."
+    },
+    {
+      "id": "node-30",
+      "name": "The Beacon Sanctuary",
+      "x": 920,
+      "y": 880,
+      "type": "beacon",
+      "description": "The fortified survivor colony on the coast. Guard towers, clean water, and salvation."
+    }
+  ],
+  "edges": [
+    { "from": "node-1", "to": "node-2", "distance": 143, "risk": 1 },
+    { "from": "node-2", "to": "node-3", "distance": 160, "risk": 1 },
+    { "from": "node-3", "to": "node-4", "distance": 160, "risk": 2 },
+    { "from": "node-4", "to": "node-5", "distance": 161, "risk": 2 },
+    { "from": "node-5", "to": "node-6", "distance": 171, "risk": 1 },
+    { "from": "node-6", "to": "node-7", "distance": 184, "risk": 2 },
+    { "from": "node-7", "to": "node-8", "distance": 180, "risk": 1 },
+    { "from": "node-8", "to": "node-9", "distance": 180, "risk": 2 },
+    { "from": "node-9", "to": "node-30", "distance": 165, "risk": 2 },
+
+    { "from": "node-1", "to": "node-17", "distance": 228, "risk": 7 },
+    { "from": "node-17", "to": "node-18", "distance": 122, "risk": 8 },
+    { "from": "node-18", "to": "node-22", "distance": 224, "risk": 10 },
+    { "from": "node-22", "to": "node-25", "distance": 179, "risk": 9 },
+    { "from": "node-25", "to": "node-29", "distance": 164, "risk": 8 },
+    { "from": "node-29", "to": "node-30", "distance": 264, "risk": 7 },
+
+    { "from": "node-1", "to": "node-10", "distance": 175, "risk": 3 },
+    { "from": "node-10", "to": "node-11", "distance": 181, "risk": 3 },
+    { "from": "node-11", "to": "node-21", "distance": 189, "risk": 4 },
+    { "from": "node-21", "to": "node-24", "distance": 206, "risk": 4 },
+    { "from": "node-24", "to": "node-28", "distance": 153, "risk": 4 },
+    { "from": "node-28", "to": "node-16", "distance": 239, "risk": 3 },
+    { "from": "node-16", "to": "node-30", "distance": 220, "risk": 3 },
+
+    { "from": "node-11", "to": "node-12", "distance": 180, "risk": 3 },
+    { "from": "node-12", "to": "node-13", "distance": 163, "risk": 2 },
+    { "from": "node-13", "to": "node-14", "distance": 182, "risk": 2 },
+    { "from": "node-14", "to": "node-15", "distance": 181, "risk": 3 },
+    { "from": "node-15", "to": "node-16", "distance": 180, "risk": 3 },
+
+    { "from": "node-3", "to": "node-18", "distance": 171, "risk": 5 },
+    { "from": "node-4", "to": "node-19", "distance": 201, "risk": 6 },
+    { "from": "node-18", "to": "node-19", "distance": 122, "risk": 7 },
+    { "from": "node-19", "to": "node-20", "distance": 141, "risk": 6 },
+    { "from": "node-5", "to": "node-20", "distance": 204, "risk": 4 },
+    { "from": "node-20", "to": "node-23", "distance": 161, "risk": 5 },
+    { "from": "node-23", "to": "node-26", "distance": 180, "risk": 6 },
+    { "from": "node-26", "to": "node-29", "distance": 134, "risk": 5 },
+    { "from": "node-26", "to": "node-8", "distance": 186, "risk": 4 },
+
+    { "from": "node-10", "to": "node-17", "distance": 171, "risk": 5 },
+    { "from": "node-17", "to": "node-21", "distance": 184, "risk": 5 },
+    { "from": "node-21", "to": "node-22", "distance": 184, "risk": 8 },
+    { "from": "node-22", "to": "node-23", "distance": 180, "risk": 7 },
+    { "from": "node-22", "to": "node-24", "distance": 161, "risk": 7 },
+    { "from": "node-24", "to": "node-25", "distance": 161, "risk": 6 },
+    { "from": "node-25", "to": "node-26", "distance": 160, "risk": 6 },
+    { "from": "node-27", "to": "node-24", "distance": 156, "risk": 4 },
+    { "from": "node-27", "to": "node-28", "distance": 180, "risk": 4 },
+    { "from": "node-14", "to": "node-27", "distance": 131, "risk": 3 },
+    { "from": "node-28", "to": "node-29", "distance": 181, "risk": 5 }
+  ],
+  "dangerZones": [
+    {
+      "id": "zone-1",
+      "name": "The Swarm Epicenter",
+      "threatLevel": "high",
+      "nodeIds": ["node-18", "node-19", "node-22", "node-25"],
+      "description": "Massive concentration of fast stalkers and nests centered around the highway collapse."
+    },
+    {
+      "id": "zone-2",
+      "name": "Subterranean Metro Infestation",
+      "threatLevel": "medium",
+      "nodeIds": ["node-10", "node-17", "node-21"],
+      "description": "Dark tunnels with poor visibility, echoing shrieks, and toxic spore pockets."
+    },
+    {
+      "id": "zone-3",
+      "name": "Commercial District Quarantine",
+      "threatLevel": "high",
+      "nodeIds": ["node-20", "node-23", "node-26"],
+      "description": "Enclosed glass atriums now harboring mutated nocturnal apex packs."
+    },
+    {
+      "id": "zone-4",
+      "name": "Industrial Hazard Zone",
+      "threatLevel": "medium",
+      "nodeIds": ["node-24", "node-28", "node-29"],
+      "description": "Chemical runoffs, compromised cooling towers, and wandering feral squads."
+    },
+    {
+      "id": "zone-5",
+      "name": "Flooded Basin Outskirts",
+      "threatLevel": "low",
+      "nodeIds": ["node-11", "node-12", "node-13", "node-14"],
+      "description": "Sluggish crawlers trapped in mire and rotting timber structures."
+    }
+  ]
+}
